@@ -1,4 +1,9 @@
 import { Product, CityOption } from '../types';
+import blackTrouserImage from ‘../assets/images/product_black_baggy_trouser_1793270969700.jpg’;
+import greyTrouserImage from ‘../assets/images/product_grey_baggy_trouser_1793270970114.jpg’;
+import navyTrouserImage from ‘../assets/images/product_navy_baggy_trouser_1793270971047.jpg’;
+import heroStreetwearImage from ‘../assets/images/hero_streetwear_baggy_1793270968674.jpg’;
+import fabricCraftImage from ‘../assets/images/about_fabric_craft_1793270970989.jpg’;
 
 export const BRAND_CONFIG = {
   name: 'Premium Fit',
@@ -28,7 +33,7 @@ export const PRODUCTS: Product[] = [
     colorHex: '#18181b',
     price: 1000,
     originalPrice: 1400,
-    image: '/src/assets/images/product_black_baggy_trouser_1793270969700.jpg',
+    image: blackTrouserImage,
     shortDescription: 'Signature deep jet-black relaxed baggy trouser with elasticated waist and tailored streetwear drape.',
     description:
       'Engineered for maximum all-day comfort and modern street silhouette. Made with heavy-duty breathable combed cotton twill that maintains a crisp relaxed drop without losing its shape. Features an adjustable high-density inner drawcord, deep side pockets that securely fit modern smartphones, and a reinforced gusset for everyday ease.',
@@ -52,7 +57,7 @@ export const PRODUCTS: Product[] = [
     colorHex: '#9ca3af',
     price: 1000,
     originalPrice: 1400,
-    image: '/src/assets/images/product_grey_baggy_trouser_1793270970114.jpg',
+    image: greyTrouserImage,
     shortDescription: 'Timeless heather grey relaxed trouser crafted with ultra-soft textured cotton blend for effortless casual styling.',
     description:
       'The quintessential everyday neutral trouser. The Classic Grey Baggy Trouser blends versatile streetwear aesthetics with loungewear comfort. Perfect to pair with oversized tees, hoodies, or clean white sneakers. Designed with deep utilitarian slant pockets, flexible waist comfort, and an authentic wide-leg drape.',
@@ -76,7 +81,7 @@ export const PRODUCTS: Product[] = [
     colorHex: '#1e3a8a',
     price: 1000,
     originalPrice: 1400,
-    image: '/src/assets/images/product_navy_baggy_trouser_1793270971047.jpg',
+    image: navyTrouserImage,
     shortDescription: 'Rich midnight navy blue baggy trouser engineered with durable weave and relaxed streetwear styling.',
     description:
       'A refined statement piece in rich midnight navy. Designed to transition seamlessly from college to weekend hangouts. The heavyweight cotton weave holds its wide relaxed shape while letting your skin breathe in warm climates. Finished with tailored inner seams and custom metallic drawcord eyelets.',
@@ -152,5 +157,6 @@ export const SIZE_CHART = [
   },
 ];
 
-export const HERO_ASSET = '/src/assets/images/hero_streetwear_baggy_1793270968674.jpg';
-export const CRAFT_ASSET = '/src/assets/images/about_fabric_craft_1793270970989.jpg';
+export const HERO_ASSET = heroStreetwearImage;
+export const CRAFT_ASSET = fabricCraftImage;
+
