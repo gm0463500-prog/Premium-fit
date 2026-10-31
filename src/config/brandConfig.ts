@@ -1,9 +1,9 @@
 import { Product, CityOption } from '../types';
-import blackTrouserImage from ‘../assets/images/product_black_baggy_trouser_1793270969700.jpg’;
-import greyTrouserImage from ‘../assets/images/product_grey_baggy_trouser_1793270970114.jpg’;
-import navyTrouserImage from ‘../assets/images/product_navy_baggy_trouser_1793270971047.jpg’;
-import heroStreetwearImage from ‘../assets/images/hero_streetwear_baggy_1793270968674.jpg’;
-import fabricCraftImage from ‘../assets/images/about_fabric_craft_1793270970989.jpg’;
+import blackTrouserImage from '../assets/images/product_black_baggy_trouser_1793270969700.jpg';
+import greyTrouserImage from '../assets/images/product_grey_baggy_trouser_1793270970114.jpg';
+import navyTrouserImage from '../assets/images/product_navy_baggy_trouser_1793270971047.jpg';
+import heroStreetwearImage from '../assets/images/hero_streetwear_baggy_1793270968674.jpg';
+import fabricCraftImage from '../assets/images/about_fabric_craft_1793270970989.jpg';
 
 export const BRAND_CONFIG = {
   name: 'Premium Fit',
